@@ -1,0 +1,157 @@
+body{
+    /* background-image: url("https://t4.ftcdn.net/jpg/15/32/37/53/360_F_1532375329_wQm6mdIkCIFXe7iGErWUPkJDRla4GywJ.jpg"); */
+    /* background-image: url("https://img.freepik.com/fotos-premium/campo-futbol-o-campo-futbol-pelota-futbol-sobre-fondo-hierba-verde_518421-1096.jpg?semt=ais_hybrid&w=740&q=80"); */
+   background-image: url("https://png.pngtree.com/background/20220725/original/pngtree-soccer-ball-in-goal-on-grass-with-spotlight-vector-illustration-picture-image_1758315.jpg");
+    background-attachment: fixed;
+
+    background-position: center;
+
+   background-size: cover;
+
+   color:white;
+text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+
+}
+
+img.banderaPais{
+
+     
+    border: solid black 1px;
+
+
+}
+/* esta es una card, que contiene un pais */
+.bandera1{
+    border:solid Black 1px;
+    border-radius: 2%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+ 
+    /* min-height: 60vh; */
+    gap:0.5rem;
+    /* background-image: url("https://img.freepik.com/vector-gratis/fondo-futbol-degradado-dinamico_23-2149007789.jpg?semt=ais_hybrid&w=740&q=80"); */
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz0T7NY729tnC-sOte7aeyn6gFih5j5zWEGw&shttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz0T7NY729tnC-sOte7aeyn6gFih5j5zWEGw&s"); */
+   /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMaqAeYMCehrQZiBcwSgPnqlMdtszLhLutQQ&s"); */
+   /* background-image: url("https://plus.unsplash.com/premium_photo-1677146015088-71992ac139af?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Zm9uZG8lMjBkZSUyMGYlQzMlQkF0Ym9sfGVufDB8fDB8fHww");  */
+   /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmLSgAtHXj8He_pDX52ekTu--p5tRqCy-ZSg&s"); */
+   
+   /* background-image: url("https://img.freepik.com/fotos-premium/campo-futbol-o-campo-futbol-pelota-futbol-sobre-fondo-hierba-verde_518421-1216.jpg?semt=ais_hybrid&w=740&q=80"); */
+
+   color:black;
+   background-position: center;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 2rem;
+
+      background: rgba(255, 255, 255, 0.3); /*semitransparente */
+    
+   backdrop-filter: blur(36px); /*🔥 esto crea el efecto borroso */
+   overflow: hidden;
+
+
+}
+
+.p1{
+    border:dashed white 2px;
+    gap:1.5rem;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+  
+   overflow: hidden;
+}
+
+
+img.imgCopaGanada {
+    
+    width: 50px;
+    height:auto;
+   
+}
+
+div.divCopas{
+
+    
+    justify-content: center;
+   
+}
+
+
+.flagImg{
+    
+  height: auto;
+  overflow: hidden;
+}
+
+.flagImg img {
+  
+ 
+  object-fit: cover;   /* o contain */
+}
+
+
+
+
+.contenedorTitulo{
+  background: rgba(255, 255, 255, 0.2); /*semitransparente */
+  
+   backdrop-filter: blur(36px); /*🔥 esto crea el efecto borroso */
+
+border:solid black 2px;
+    
+}
+
+
+
+
+
+
+
+
+.rubik-glitch-regular {
+  font-family: "Rubik Glitch", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.tilt-prism-titulo1 {
+  font-family: "Tilt Prism", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "XROT" 0,
+    "YROT" 0;
+  
+    font-size: 50px;
+    color:white;
+     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+   
+
+       font-size: clamp(2rem, 5vw, 3rem);
+}
+
+.logo2026{
+
+  width: 120px;
+  height: auto;
+
+}
+
+.contenedorTitulos{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+
+
+}
+
+div#divGrupos{
+  border: solid red 2px;
+  min-height: 100vh;
+}
